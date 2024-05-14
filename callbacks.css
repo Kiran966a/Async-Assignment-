@@ -1,0 +1,60 @@
+body {
+    background-size: cover;
+    background-image: url("/images/pretty.jpg");
+}
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.output {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #077f88;
+    border-radius: 5px;
+}
+h1{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    color:purple;
+    text-decoration: underline;
+}
+#callbackBtn{
+    background-color: rgb(240, 230, 231);
+    border-color: aqua;
+    font-size: large;
+    font-family: "Kode Mono", monospace;
+    padding: 15px 32px;
+    border-radius: 20px;   
+}
+#callbackBtn:hover {
+    background-color: #cbf162; 
+}
+#fetchBtn{
+    background-color: rgb(240, 230, 231);
+    border-color: aqua;
+    font-size: large;
+    font-family: "Kode Mono", monospace;
+    padding: 15px 32px;
+    border-radius: 20px;   
+}
+#fetchBtn:hover{
+    background-color: #cbf162; 
+}
+#callbackOutput{
+    font-family: "Kode Mono", monospace;
+    font-size: large;
+    color:purple;
+}
+#fetchOutput{
+    font-family: "Kode Mono", monospace;
+    font-size: large;
+    color:purple;
+    max-height: 200px; /* Set maximum height */
+    overflow-y: auto; /* Add vertical scrollbar */
+}

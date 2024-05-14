@@ -1,0 +1,54 @@
+body {
+    background-size: cover;
+    background-image: url("/images/purple.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+h1 {
+    color: #ec1e40;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Kode Mono", monospace;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fd3b7c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+    background-color: #d629c8;
+}
+
+.result {
+    margin-top: 20px;
+    font-family: "Kode Mono", monospace;
+    font-size: large;
+    color:purple;
+    max-height: 400px; 
+    overflow-y: auto; 
+}

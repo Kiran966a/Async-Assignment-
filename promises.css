@@ -1,0 +1,57 @@
+body {
+    background-size: cover;
+    background-image: url("/images/birds.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    color: #46056b;
+    font-family: "Kode Mono", monospace;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgb(253, 220, 225);
+}
+p {
+    color: #f339e4;
+    margin-bottom: 20px;
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: x-large;
+}
+button {
+    padding: 15px 32px;
+    font-size: 16px;
+    background-color: #eb43c1;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    font-family: "Kode Mono", monospace;
+}
+button:hover {
+    background-color: #27f0d5;
+}
+
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 300px; 
+    overflow-y: auto; 
+    font-family: "Kode Mono", monospace;    
+}
